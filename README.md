@@ -102,7 +102,7 @@ Dit zal resulteren in de volgende HTML code:
 
 ### @checkbox
 
-`@checkbox(string, [mixed $value = 1, [boolean $checked = false]])`
+`@checkbox(string $attribute, [mixed $value = 1, [boolean $checked = false]])`
 
 Gebruik de `@checkbox` directive om een waarde en status aan de checkbox te koppelen.
 
