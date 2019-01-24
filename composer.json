@@ -1,0 +1,30 @@
+{
+    "name": "vp/validation-helper", 
+    "description": "Behandel form model bindings, oude inputs en validatiefoutmeldingen in een mooi en gemakkelijk manier.", 
+    "keywords": ["laravel", "formulieren", "html", "eloquent", "validatie", "sessie", "helpers"],
+    "license": "MIT", 
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VerhuurPlatform\\FormHelper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "laravel/laravel": "^7.1.3"
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "VerhuurPlatform\\FormHelper\\FormServiceProvider"
+            ]
+        }
+    }
+}
