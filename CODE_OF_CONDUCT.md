@@ -1,4 +1,4 @@
-# Contributie Coventant - gedragscode
+# Contributie Coventant - Gedragscode
 
 ## Onze belofte 
 
