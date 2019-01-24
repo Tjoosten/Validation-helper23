@@ -1,0 +1,7 @@
+/.idea
+/.vscode
+/.php_cs_cache
+/vendor
+composer.lock 
+*.sublime-project 
+*.sublime-workspace
